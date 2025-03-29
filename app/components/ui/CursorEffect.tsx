@@ -23,11 +23,19 @@ import { VscVscode as SiVscode } from "react-icons/vsc";
 import { TbBrandCpp, TbBrandReactNative } from "react-icons/tb";
 import { renderToString } from "react-dom/server";
 
+// Define canvas and div element types for p5
+type P5Element = {
+  style: (property: string, value: string) => void;
+  parent: (parent: HTMLElement) => void;
+  position: (x: number, y: number) => void;
+  remove: () => void;
+};
+
 // Define p5 instance type for better TypeScript support
 interface P5Instance {
   setup: () => void;
   draw: () => void;
-  createCanvas: (width: number, height: number) => any;
+  createCanvas: (width: number, height: number) => P5Element;
   resizeCanvas: (width: number, height: number) => void;
   frameRate: (fps: number) => void;
   clear: () => void;
@@ -36,8 +44,9 @@ interface P5Instance {
   mouseX: number;
   mouseY: number;
   windowResized: () => void;
-  createDiv: (html?: string) => any;
+  createDiv: (html?: string) => P5Element;
   canvas: { parentElement: HTMLElement };
+  remove: () => void;
 }
 
 const CursorEffect = () => {
