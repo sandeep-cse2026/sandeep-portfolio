@@ -74,7 +74,6 @@ import {
 } from "react-icons/tb";
 import { IoLogoElectron as TbBrandElectron } from "react-icons/io5";
 
-import { AiFillThunderbolt } from "react-icons/ai";
 import { GiArtificialIntelligence } from "react-icons/gi";
 import { DiScrum } from "react-icons/di";
 

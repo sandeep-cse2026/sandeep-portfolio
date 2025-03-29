@@ -35,7 +35,6 @@ type ProjectCardProps = {
 
 const ProjectCard = ({
   project,
-  index,
   isPreview = false, // Flag to indicate if this card is used in the preview section
   category,
 }: ProjectCardProps) => {

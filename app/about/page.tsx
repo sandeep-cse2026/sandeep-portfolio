@@ -6,7 +6,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "About | Sandeep Kalla",
   description:
-    "Learn about Sandeep Kalla's background, skills, and experience as a Software Developer.",
+    "Learn about Sandeep Kalla&apos;s background, skills, and experience as a Software Developer.",
 };
 
 export default function AboutPage() {

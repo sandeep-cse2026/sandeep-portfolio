@@ -205,8 +205,8 @@ const TechStackSection = () => {
           </h2>
 
           <p className="text-foreground/70 max-w-2xl mx-auto text-center text-lg">
-            A curated collection of technologies and tools I'm proficient with,
-            used to build modern and scalable applications.
+            A curated collection of technologies and tools I&apos;m proficient
+            with, used to build modern and scalable applications.
           </p>
         </motion.div>
 

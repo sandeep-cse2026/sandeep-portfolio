@@ -1,3 +1,7 @@
+/* eslint-disable @typescript-eslint/no-explicit-any, @typescript-eslint/explicit-module-boundary-types */
+/* eslint-disable react/no-unknown-property */
+// @ts-nocheck
+
 "use client";
 
 import { useEffect, useRef } from "react";

@@ -1,12 +1,12 @@
 import { Metadata } from "next";
-import Image from "next/image";
 import HeroSection from "./sections/home/HeroSection";
 import TechStackSection from "./sections/home/TechStackSection";
 import ProjectsPreviewSection from "./sections/home/ProjectsPreviewSection";
 
 export const metadata: Metadata = {
   title: "Sandeep Kalla | Software Developer",
-  description: "Portfolio of Sandeep Kalla, a Software Developer specializing in modern web development.",
+  description:
+    "Portfolio of Sandeep Kalla, a Software Developer specializing in modern web development.",
 };
 
 export default function Home() {

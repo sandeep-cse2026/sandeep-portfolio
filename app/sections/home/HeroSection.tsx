@@ -108,7 +108,9 @@ const HeroSection = () => {
               variants={itemVariants}
               className="mb-4 inline-block neo-brutalist py-1 px-3"
             >
-              <span className="font-display font-medium">Hello there, I'm</span>
+              <span className="font-display font-medium">
+                Hello there, I&apos;m
+              </span>
             </motion.div>
 
             <motion.h1

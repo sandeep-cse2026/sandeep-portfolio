@@ -29,8 +29,8 @@ export default function ProjectsPage() {
         </h1>
 
         <p className="text-foreground/70 text-lg max-w-3xl mx-auto mb-16 text-center">
-          Here's a collection of my work that demonstrates my skills and passion
-          for creating modern, responsive web applications. Each project
+          Here&apos;s a collection of my work that demonstrates my skills and
+          passion for creating modern, responsive web applications. Each project
           represents a unique challenge and opportunity to learn and grow as a
           developer.
         </p>

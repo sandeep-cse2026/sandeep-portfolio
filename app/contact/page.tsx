@@ -33,7 +33,7 @@ export default function ContactPage() {
 
         <div className="max-w-3xl mx-auto mb-12 text-center">
           <p className="text-foreground/70 text-lg">
-            I'm always open to discussing new projects, creative ideas, or
+            I&apos;m always open to discussing new projects, creative ideas, or
             opportunities to be part of your vision. Feel free to reach out
             using the form below or connect with me on social media.
           </p>
