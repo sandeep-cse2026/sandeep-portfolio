@@ -101,7 +101,7 @@ const CursorEffect = () => {
 
       // Create sketch with proper type annotation for p5 instance
       const sketch = (p: P5Instance) => {
-        // Define a type for particles
+        // Define a type for particles with fix for div property
         interface Particle {
           position: { x: number; y: number };
           velocity: { x: number; y: number };
@@ -184,7 +184,7 @@ const CursorEffect = () => {
             const icon = techIconStrings[iconIndex];
 
             // Create particle with tech icon - smoother animation settings
-            const particle = {
+            const particle: Particle = {
               position: {
                 x: mouseX + offsetX,
                 y: mouseY + offsetY,
@@ -272,13 +272,16 @@ const CursorEffect = () => {
       };
 
       // Initialize p5 instance
-      const p5Instance = new p5(sketch, containerRef.current);
+      // Fix for the error at line 275 - ensure containerRef.current is not null
+      if (containerRef.current) {
+        const p5Instance = new p5(sketch, containerRef.current);
 
-      // Return a cleanup function
-      return () => {
-        p5Instance.remove();
-        particlesContainer.remove();
-      };
+        // Return a cleanup function
+        return () => {
+          p5Instance.remove();
+          particlesContainer.remove();
+        };
+      }
     });
 
     // Clean up function
