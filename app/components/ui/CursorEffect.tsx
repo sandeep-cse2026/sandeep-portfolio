@@ -23,8 +23,25 @@ import { VscVscode as SiVscode } from "react-icons/vsc";
 import { TbBrandCpp, TbBrandReactNative } from "react-icons/tb";
 import { renderToString } from "react-dom/server";
 
+// Define p5 instance type for better TypeScript support
+interface P5Instance {
+  setup: () => void;
+  draw: () => void;
+  createCanvas: (width: number, height: number) => any;
+  resizeCanvas: (width: number, height: number) => void;
+  frameRate: (fps: number) => void;
+  clear: () => void;
+  lerp: (start: number, stop: number, amount: number) => number;
+  random: (min: number, max?: number) => number;
+  mouseX: number;
+  mouseY: number;
+  windowResized: () => void;
+  createDiv: (html?: string) => any;
+  canvas: { parentElement: HTMLElement };
+}
+
 const CursorEffect = () => {
-  const containerRef = useRef(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (typeof window === "undefined" || !containerRef.current) return;
@@ -73,10 +90,23 @@ const CursorEffect = () => {
     import("p5").then((p5Module) => {
       const p5 = p5Module.default;
 
-      // Create sketch
-      const sketch = (p) => {
+      // Create sketch with proper type annotation for p5 instance
+      const sketch = (p: P5Instance) => {
+        // Define a type for particles
+        interface Particle {
+          position: { x: number; y: number };
+          velocity: { x: number; y: number };
+          icon: string;
+          size: number;
+          rotation: number;
+          rotationSpeed: number;
+          lifespan: number;
+          maxLife: number;
+          div: HTMLDivElement | null;
+        }
+
         // Array to hold particle objects
-        const particles = [];
+        const particles: Particle[] = [];
 
         // Mouse position values with better smoothing
         let mouseX = 0;
