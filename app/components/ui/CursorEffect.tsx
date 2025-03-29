@@ -1,7 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any, @typescript-eslint/explicit-module-boundary-types */
-/* eslint-disable react/no-unknown-property */
-// @ts-nocheck
-
 "use client";
 
 import { useEffect, useRef } from "react";
@@ -35,26 +31,26 @@ const CursorEffect = () => {
 
     // Define the tech icons to use in the animation
     const techIconComponents = [
-      <SiJavascript color="#F7DF1E" />,
-      <SiTypescript color="#3178C6" />,
-      <SiReact color="#61DAFB" />,
-      <SiNextdotjs color="#FFFFFF" />,
-      <SiNodedotjs color="#339933" />,
-      <SiHtml5 color="#E34F26" />,
-      <SiCss3 color="#1572B6" />,
-      <SiTailwindcss color="#06B6D4" />,
-      <SiGit color="#F05032" />,
-      <SiMongodb color="#47A248" />,
-      <SiPostgresql color="#336791" />,
-      <SiGraphql color="#E10098" />,
-      <SiDocker color="#2496ED" />,
-      <SiPython color="#3776AB" />,
-      <FaJava color="#007396" />,
-      <TbBrandCpp color="#00599C" />,
-      <SiVscode color="#007ACC" />,
-      <FaAws color="#FF9900" />,
-      <TbBrandReactNative color="#61DAFB" />,
-      <SiVite color="#646CFF" />,
+      <SiJavascript key="js" color="#F7DF1E" />,
+      <SiTypescript key="ts" color="#3178C6" />,
+      <SiReact key="react" color="#61DAFB" />,
+      <SiNextdotjs key="nextjs" color="#FFFFFF" />,
+      <SiNodedotjs key="nodejs" color="#339933" />,
+      <SiHtml5 key="html5" color="#E34F26" />,
+      <SiCss3 key="css3" color="#1572B6" />,
+      <SiTailwindcss key="tailwind" color="#06B6D4" />,
+      <SiGit key="git" color="#F05032" />,
+      <SiMongodb key="mongodb" color="#47A248" />,
+      <SiPostgresql key="postgresql" color="#336791" />,
+      <SiGraphql key="graphql" color="#E10098" />,
+      <SiDocker key="docker" color="#2496ED" />,
+      <SiPython key="python" color="#3776AB" />,
+      <FaJava key="java" color="#007396" />,
+      <TbBrandCpp key="cpp" color="#00599C" />,
+      <SiVscode key="vscode" color="#007ACC" />,
+      <FaAws key="aws" color="#FF9900" />,
+      <TbBrandReactNative key="reactnative" color="#61DAFB" />,
+      <SiVite key="vite" color="#646CFF" />,
     ];
 
     // Convert React icons to SVG strings
@@ -78,21 +74,9 @@ const CursorEffect = () => {
       const p5 = p5Module.default;
 
       // Create sketch
-      const sketch = (p: {
-        setup: () => void;
-        createCanvas: (arg0: number, arg1: number) => any;
-        frameRate: (arg0: number) => void;
-        clear: () => void;
-        draw: () => void;
-        lerp: (arg0: number, arg1: any, arg2: number) => number;
-        mouseX: any;
-        mouseY: any;
-        random: (arg0: number, arg1: number | undefined) => number;
-        windowResized: () => void;
-        resizeCanvas: (arg0: number, arg1: number) => void;
-      }) => {
+      const sketch = (p) => {
         // Array to hold particle objects
-        const particles: any[] = [];
+        const particles = [];
 
         // Mouse position values with better smoothing
         let mouseX = 0;
