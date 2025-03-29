@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sandeep Kalla - Developer Portfolio
 
-## Getting Started
+<div align="center">
+  <img src="public/profile.png" alt="Sandeep Kalla" width="120" style="border-radius: 50%;" />
+  <h3>Modern & Interactive Developer Portfolio Website</h3>
+  <p>A sleek, responsive portfolio showcasing my skills, projects, and professional journey</p>
+  
+  ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+  ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+  ![p5.js](https://img.shields.io/badge/p5.js-ED225D?style=flat&logo=p5.js&logoColor=white)
+</div>
 
-First, run the development server:
+## ✨ Features
+
+- **Interactive UI** - Smooth animations and transitions with cursor effects
+- **Responsive Design** - Optimized for all devices from mobile to desktop
+- **Dark Mode** - Modern dark theme for comfortable viewing
+- **Project Showcase** - Beautifully presented project cards with details
+- **Tech Stack Section** - Visual representation of skills and technologies
+- **Professional Timeline** - Career journey and achievements
+- **Contact Form** - Easy way for visitors to reach out
+- **Performance Optimized** - Fast loading and smooth interactions
+
+## 🚀 Tech Stack
+
+- **Framework:** Next.js 14 with App Router
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:**
+  - Framer Motion for UI animations
+  - p5.js for interactive cursor effects
+- **Icons:** React Icons
+- **Deployment:** Vercel
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Node.js 18+ installed
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/sandeep-cse2026/sandeep-portfolio
+cd dev-port
+```
+
+2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/                    # Next.js app directory
+├── components/         # Reusable UI components
+│   ├── shared/         # Layout components
+│   └── ui/             # UI components
+├── sections/           # Page sections
+│   ├── home/           # Homepage sections
+│   ├── about/          # About page sections
+│   ├── projects/       # Projects page sections
+│   └── contact/        # Contact page sections
+├── lib/                # Utility functions and hooks
+└── globals.css         # Global styles
+constants/              # Data constants
+public/                 # Static assets
+```
 
-## Learn More
+## 🎨 Key Components
 
-To learn more about Next.js, take a look at the following resources:
+- **Cursor Effect** - Interactive tech icon particles that follow your cursor
+- **Tech Stack Grid** - Visual representation of skills with tech icons
+- **Project Cards** - Showcase of projects with descriptions and links
+- **Timeline** - Professional journey with animations
+- **Contact Form** - Styled form with validation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📱 Responsive Design
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The portfolio is fully responsive and optimized for:
 
-## Deploy on Vercel
+- Mobile devices (320px+)
+- Tablets (768px+)
+- Laptops/Desktops (1024px+)
+- Large screens (1440px+)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The portfolio is configured for easy deployment on Vercel:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fdev-port)
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 📧 Contact
+
+Sandeep Kalla - [sandeep.cse2026@gmail.com](mailto:sandeep.cse2026@gmail.com)
+
+Project Link: [https://github.com/sandeep-cse2026/sandeep-portfolio](https://github.com/yourusername/dev-port)
