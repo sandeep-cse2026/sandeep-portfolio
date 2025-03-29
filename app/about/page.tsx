@@ -57,7 +57,7 @@ export default function AboutPage() {
                       <h3 className="font-display font-semibold mb-1 text-accent-blue">
                         Location
                       </h3>
-                      <p className="text-foreground/70">Hyderabad, India</p>
+                      <p className="text-foreground/70">Delhi, India</p>
                     </div>
                     <div className="p-4 bg-background">
                       <h3 className="font-display font-semibold mb-1 text-accent-pink">
