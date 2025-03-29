@@ -1,0 +1,167 @@
+{
+  "name": "Sandeep Kalla",
+  "title": "Software Developer",
+  "contact": {
+    "phone": "7703821998",
+    "email": "sandeep.cse2026@gmail.com",
+    "location": "New Delhi",
+    "linkedin": "https://www.linkedin.com/in/sandeep-kalla",
+    "github": "https://github.com/sandeep-kalla"
+  },
+  "experience": [
+    {
+      "role": "Problem Solving Intern",
+      "company": "Big(O) - Solve It",
+      "location": "Delhi, India",
+      "duration": "11/2024 - Present",
+      "description": "Community which provides daily coding problems & solutions. Increased the participation by 30-35%.",
+      "technologies": ["C", "C++"]
+      
+    },
+    {
+      "role": "Problem Solving Intern",
+      "company": "Big(O) - Solve It",
+      "location": "Delhi, India",
+      "duration": "11/2024 - Present",
+      "description": "Community which provides daily coding problems & solutions. Increased the participation by 30-35%.",
+      "technologies": ["C", "C++"]
+      
+    },
+    {
+      "role": "Problem Solving Intern",
+      "company": "Big(O) - Solve It",
+      "location": "Delhi, India",
+      "duration": "11/2024 - Present",
+      "description": "Community which provides daily coding problems & solutions. Increased the participation by 30-35%.",
+      "technologies": ["C", "C++"]
+      
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Technology - BTech, Computer Science",
+    "institution": "Bharati Vidyapeeth's College of Engineering",
+    "description": "Pursuing BTech in Computer Science with a focus on full-stack development and problem-solving.",
+    "duration": "11/2022 - 11/2026"
+  },
+  "skills": {
+    "programming_languages": ["C", "C++", "JavaScript"],
+    "frameworks_libraries": ["Node.js", "Next.js", "Tailwind CSS", "ShadCn"],
+    "development_skills": [
+      "Full Stack Development",
+      "Component-Based UI Design",
+      "Responsive Web Design"
+    ],
+    "tools_technologies": ["Git", "VS Code", "Firebase"]
+  },
+  "courses": [
+    "MERN Stack by BrainMentors PVT.",
+    "DSA with C++ by Lets Upgrade"
+  ],
+  "projects": [
+    {
+      "name": "FileFatafat (Realtime File Manager)",
+      "duration": "11/2024 - 01/2025",
+      "location": "Delhi, India",
+      "description": "Created a full-stack file manager for solving the problem of document sharing in college labs. Students can now share print files directly to a PC connected to the printer without logging into WhatsApp.",
+      "technologies": ["Firebase", "Next.js", "Tailwind CSS","ShadCn"],
+      "features": [
+        "Real-time file sharing",
+        "User-friendly interface",
+        "Direct printing from the app"
+      ],
+      "challenges": [
+        "Implementing real-time file sharing",
+        "Ensuring a user-friendly interface",
+        "Integrating direct printing functionality"
+      ],
+      "url": "https://online-file-manager.vercel.app/",
+      "github": "https://github.com/sandeep-kalla/online-file-manager",
+      "image": "/project-images/project-1.png"
+    },
+    {
+      "name": "Imagineer AI",
+      "duration": "01/2025 - Present",
+      "location": "Delhi, India",
+      "description": "Created a modern full-stack prompt-to-image generation website. Successfully provided a free prompt-to-image experience for users, allowing them to preserve their creations.",
+      "technologies": ["Gemini","Supabase", "Next.js", "Tailwind CSS","ShadCn"],
+      "features": [
+        "Prompt-to-image generation",
+        "User-friendly interface",
+        "Image preservation"
+      ],
+      "challenges": [
+        "Implementing prompt-to-image generation",
+        "Ensuring a user-friendly interface",
+        "Image preservation functionality"
+      ],
+      "url": "https://imagineer-ai.vercel.app/",
+      "github": "https://github.com/sandeep-kalla/imagineer-ai",
+      "image": "/project-images/project-2.png"
+    },
+    {
+      "name": "Turbo Code Online Code Editor",
+      "duration": "01/2025 - 01/2025",
+      "location": "Delhi, India",
+      "description": "Created a full-stack online code editor for students to practice coding. It supports multiple languages and provides a user-friendly interface for coding and debugging.",
+      "technologies": ["Node.js", "Next.js", "Tailwind CSS"],
+      "features": [
+        "Real-time code execution",
+        "Multi-language support",
+        "User-friendly interface"
+      ],
+      "challenges": [
+        "Implementing real-time code execution",
+        "Ensuring multi-language support",
+        "Creating a user-friendly interface"
+      ],
+      "url": "https://turbocode.netlify.app/",
+      "github": "https://github.com/sandeep-kalla/online-compiler-code-it",
+      "image": "/project-images/project-3.png"
+    },
+    {
+      "name": "AniKaiser (Anime Website)",
+      "duration": "02/2025 - 02/2025",
+      "location": "Delhi, India",
+      "description": "Created an anime website using web scrapping for anime lovers. It provides a platform to watch and discuss anime, with a user-friendly interface and a wide range of anime content.",
+      "technologies": ["Node.js", "Vite", "Tailwind CSS", "Framer Motion"],
+      "features": [
+        "Web scraping for anime content",
+        "User-friendly interface",
+        "Discussion platform for anime lovers"
+      ],
+      "challenges": [
+        "Implementing web scraping",
+        "Ensuring a user-friendly interface",
+        "Creating a discussion platform"
+      ],
+      "url": "https://anikaiser.netlify.app/",
+      "github": "https://github.com/sandeep-kalla/ani-kaiser-website",
+      "image": "/project-images/project-4.png"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Runner Up InHouse Training Best Project",
+      "description": "Runner-up in the in-house summer training Best Project in MERN Stack."
+    },
+    {
+      "title": "Winner in BugSmashers",
+      "description": "Secured 1st position in the DSA challenge which involved debugging and coding challenges."
+    },
+    {
+      "title": "Winner in Technotic 2.0",
+      "description": "Secured 1st position in Technotic 2.0 event, which had aptitude and DSA challenges."
+    },
+    {
+      "title": "Runner Up in Ranbhoomi (Football)",
+      "description": "Runner-up in football at the annual fest Ranbhoomi."
+    }
+  ],
+  "interests": [
+    "Full Stack Development",
+    "Problem Solving",
+    "Designing",
+    "Sketching",
+    "Football"
+  ]
+}
